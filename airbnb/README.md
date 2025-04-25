@@ -1,36 +1,32 @@
-# Airbnb Plugin for Ferdium
+# Airbnb Host Messages for Ferdium
 
-This is a Ferdium plugin for Airbnb that allows you to use Airbnb as a service in Ferdium.
+This is a Ferdium recipe for Airbnb Host Messages. It allows hosts to manage their messages and communications with guests through the Airbnb platform.
 
 ## Features
 
-- Unread message count badge
-- Direct access to Airbnb through Ferdium
-- Custom webview options for better integration
+- Direct access to Airbnb Host Messages
+- Desktop notifications for new messages
+- Badge counter for unread messages
+- Dark mode support
 
-## Installation
+## How to use
 
-1. Clone this repository
-2. Copy the `airbnb` folder to your Ferdium plugins directory
+1. Install Ferdium
+2. Add this recipe to your Ferdium recipes directory
 3. Restart Ferdium
-4. Add Airbnb as a new service
-
-## Configuration
-
-The plugin uses the following configuration:
-
-- Service URL: https://www.airbnb.com
-- Service Name: Airbnb
-- Notification Sound: Enabled
-- Web Security: Disabled for better integration
+4. Add the Airbnb Host Messages service
 
 ## Development
 
-To modify the plugin:
+To make changes to this recipe:
 
-1. Make your changes to the files
-2. Test the changes in Ferdium
-3. Submit a pull request if you want to contribute
+1. Clone this repository
+2. Make your changes
+3. Copy the recipe to your Ferdium recipes directory:
+   ```bash
+   cp -r airbnb ~/Library/Application\ Support/Ferdium/recipes/dev/
+   ```
+4. Restart Ferdium
 
 ## License
 
